@@ -23,10 +23,10 @@ VALUES ("Salesperson", 40000.00, 1),
 
 
 
-INSERT INTO employee(firt_name, last_name, role_id, manager_id)
-VALUES ("Jonathan", "Bokungu", 3, NULL),
-        ("Andres", "Long", 2, NULL),
-        ("John", "Doe", 1, 2),
-        ("Carson", "Wolf", 4, NULL),
-        ("Jessica", "Jones", 5, NULL);
+INSERT INTO employee(first_name, last_name, role_id, manager_id)
+VALUES ("Jonathan", "Bokungu", 3, 1),
+        ("Andres", "Long", 2, 1),
+        ("John", "Doe", 1, 1),
+        ("Carson", "Wolf", 4, 1),
+        ("Jessica", "Jones", 5, 1);
 
